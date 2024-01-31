@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+}
+.containers {
+  width: 80%;
+  margin: 20px auto;
+  background-color: white;
+  padding-bottom: 30px;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.toDoList {
+  color: blue;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.test {
+  padding: 10px 180px 10px 0px;
+}
+.submit {
+  padding: 10px;
+}
+.line {
+  color: black;
+  background-color: red;
+  text-decoration: line-through;
+  background-color: gray;
+}
+.selector {
+  background-color: green;
+  width: 50%;
+  padding: 20px;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+}
